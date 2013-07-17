@@ -1,11 +1,24 @@
 require 'spec_helper'
 
 describe "LayoutLinks" do
-  describe "GET /layout_links" do
-    it "works! (now write some real specs)" do
-      # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
-      get layout_links_index_path
-      response.status.should be(200)
-    end
-  end
+
+  it "should have a homepage at '/'" #do
+    #get '/'
+    #response.should have_title("Home")
+  #end
+
+  #it "should have a contact at '/contact'" do
+    #get '/contact'
+    #response.should have_title("Contact")
+  #end
+#
+  #it "should have a contact at '/about'" do
+    #get '/contact'
+    #response.should have_title("About")
+  #end
+#
+  #it "should have a contact at '/contact'" do
+    #get '/contact'
+    #response.should have_title("Help")
+  #end
 end
