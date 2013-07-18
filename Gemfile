@@ -35,3 +35,5 @@ end
 group :development do
   gem 'annotate', '2.4.0'
 end
+
+gem 'protected_attributes', '1.0.3'
