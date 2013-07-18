@@ -53,3 +53,4 @@ tmp/**/*
 tmp/*
 doc/api
 doc/app
+/public/assets
