@@ -4,7 +4,6 @@ describe PagesController do
   render_views
 
   describe "GET 'home'" do
-    integrate_views
     it "returns http success" do
       get 'home'
       response.should be_success
