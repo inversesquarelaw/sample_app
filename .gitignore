@@ -54,3 +54,4 @@ tmp/*
 doc/api
 doc/app
 /public/assets
+/config/database.yml
